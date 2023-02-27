@@ -1,0 +1,58 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    font-family: 'PT Serif', serif;
+}
+
+.content {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+li {
+    list-style-image: url(img/arrow.png);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h2,
+p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.urunler-h2,
+.hakkımızda-h2 {
+    width: 300px;
+    margin: auto;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 20px;
+}
+
+figure {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.hakkımızda-img {
+    margin: 10px auto;
+    display: block;
+}
