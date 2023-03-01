@@ -1,0 +1,115 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    line-height: 24px;
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    padding: 14px 16px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.signInBtn {
+    color: #fff;
+    padding: 9px 15px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.logo {
+    display: block;
+    margin: 40% auto 0;
+}
+
+.search-container {
+    width: 65%;
+    height: 45px;
+    border-radius: 50px;
+    margin: 20px auto;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.search-container svg:first-child {
+    width: 5%;
+    opacity: 0.3;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.search-container svg:nth-child(2),
+.search-container svg:nth-child(3) {
+    width: 5%;
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.search-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    float: left;
+    text-decoration: none;
+    color: #202124;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    padding: 15px 20px;
+}
+
+.footer-right {
+    float: right;
+}
